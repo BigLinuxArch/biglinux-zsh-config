@@ -38,4 +38,3 @@ package() {
 	cp -r $srcdir/$pkgname/base16-shell $pkgdir/usr/share/zsh/scripts
 	chmod a+x $pkgdir/usr/share/zsh/scripts/base16-shell/*
 }
-
