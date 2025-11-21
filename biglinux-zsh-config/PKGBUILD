@@ -2,8 +2,8 @@
 # Developer: pheiduck @forum.biglinux.org
 
 pkgname=biglinux-zsh-config
-pkgver=
-pkgrel=
+pkgver=24.05.09
+pkgrel=0200
 pkgdesc="Zsh configuration for biglinux"
 arch=(any)
 url="https://github.com/biglinux/$pkgname"
