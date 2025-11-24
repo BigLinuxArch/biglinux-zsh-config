@@ -3,8 +3,8 @@
 pkgbuildFile=$(find -type f -name PKGBUILD)
 
 cd biglinux-zsh-config/
-ls -lha
-rm -rf !("PKGBUILD"|"biglinux-zsh-config.install")
+find -mindepth 1 -maxdepth 1 ! -name "PKGBUILD" ! -name "biglinux-zsh-config.install" -exec rm -rf {} +
+# rm -rf !("PKGBUILD"|"biglinux-zsh-config.install")
 rm -rf .*
 
 # # Add ao depends ao pkgbuild
