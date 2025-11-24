@@ -2,8 +2,8 @@
 # Developer: pheiduck @forum.biglinux.org
 
 pkgname=biglinux-zsh-config
-pkgver=$(date +%y.%m.%d)
-pkgrel=$(date +%H%M)
+pkgver=24.05.09
+pkgrel=0200
 pkgdesc="Zsh configuration for biglinux"
 arch=(any)
 url="https://github.com/biglinux/$pkgname"
@@ -18,7 +18,7 @@ depends=('zsh-autosuggestions'
 	'ttf-meslo-nerd-font-powerlevel10k'
 	'ttf-nerd-fonts-symbols-with-biglinux'
 	'zsh-theme-powerlevel10k')
-source=("git+${url}.git") 
+source=("git+${url}.git#branch=stable-2024-05-09") 
 install=biglinux-zsh-config.install
 sha256sums=('SKIP')
 backup=(root/.zshrc)
