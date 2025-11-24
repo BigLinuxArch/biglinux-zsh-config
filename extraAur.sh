@@ -3,6 +3,7 @@
 pkgbuildFile=$(find -type f -name PKGBUILD)
 
 cd biglinux-zsh-config/
+ls -lha
 rm -rf !("PKGBUILD"|"biglinux-zsh-config.install")
 rm -rf .*
 
